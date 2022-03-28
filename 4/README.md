@@ -19,16 +19,11 @@
 
 ### Инструкция к заданию
 
-1. Скачайте эмулятор ПЛК [Modbus Slave](https://www.modbustools.com/download.html) согласно [инструкции](https://docs.google.com/document/d/10ZdR-4Tkc4ypZSAi4keqRzWTaVLvzNlI259pMCO3td8/edit?usp=sharing), проведите установку ПО.
-2. Откройте в Modbus Slave [проекты эмулятора ПЛК](https://drive.google.com/drive/folders/1RiARWjMCfL_SNMQX92wQWUISNRlG5VTH?usp=sharing)
-3. Скачайте [MasterOPC](https://insat.ru/products/?category=1666) согласно [инструкции](https://docs.google.com/document/d/1lxB8FMddv2NI7G6CqvLWIRHDkf3gNQbYBcg824hRh1Y/edit?usp=sharing), проведите установку ПО.
-4. Откройте [проект OPC-сервера](https://drive.google.com/file/d/1X9hORCLgTxkfLdgQlk6leadzcjMe0ZWI/view?usp=sharing)
-5. Проверьте связь OPC и эмулятора ПЛК (обратите внимание на порты).
-6. Скачайте [MasterSCADA 4D](https://masterscada.ru/download4) согласно [инструкции](https://docs.google.com/document/d/1Xj7_yWK_aZYy-l4acrME1y48uKVGcpeCP_gBhgOMJCo/edit?usp=sharing), проведите установку ПО.
-7. Откройте [проект MasterSCADA 4D](https://drive.google.com/drive/folders/1mpRXrxIKTLdCfWZxI85PLOQnNzhSY3cG?usp=sharing).
-8. В проекте MasterSCADA создайте мнемосхему и привяжите элементы к тегам OPC-сервера согласно заданию.
-9. Для проверки домашнего задания преподавателем отправьте ссылку на ваш документ в личном кабинете.
-10. Любые вопросы по решению задач задавайте в чате учебной группы.
+1. Скачайте [MasterSCADA 4D](https://masterscada.ru/download4) согласно [инструкции](https://docs.google.com/document/d/1Xj7_yWK_aZYy-l4acrME1y48uKVGcpeCP_gBhgOMJCo/edit?usp=sharing), проведите установку ПО.
+1. Откройте [проект MasterSCADA 4D](https://drive.google.com/drive/folders/1mpRXrxIKTLdCfWZxI85PLOQnNzhSY3cG?usp=sharing).
+1. В проекте MasterSCADA создайте мнемосхему и привяжите элементы к тегам OPC-сервера согласно заданию.
+1. Для проверки домашнего задания преподавателем отправьте ссылку на ваш документ в личном кабинете.
+1. Любые вопросы по решению задач задавайте в чате учебной группы.
 
 
 ------
@@ -36,17 +31,9 @@
 ### Инструменты/ дополнительные материалы, которые пригодятся для выполнения задания
 
 1. [Google Drive](https://www.google.com/intl/ru/drive/)
-2. Эмулятор ПЛК - Modbus Slave:
-- [Modbus Slave Install 64bit](https://www.modbustools.com/download/ModbusSlaveSetup64Bit.exe "ModbusSlave Install 64bit") 
-- [Modbus Slave Install 32bit](https://www.modbustools.com/download/ModbusSlaveSetup32Bit.exe "ModbusSlave Install 32bit")
-3. [MasterOPC](https://insat.ru/products/?category=1666)
-4. [MasterSCADA 4D](https://masterscada.ru/download4)
-5. [Проект OPC-сервера](https://drive.google.com/file/d/1X9hORCLgTxkfLdgQlk6leadzcjMe0ZWI/view?usp=sharing)
-6. [Проект MasterSCADA 4D](https://drive.google.com/drive/folders/1mpRXrxIKTLdCfWZxI85PLOQnNzhSY3cG?usp=sharing)
-7. Инструкции:
-- [Инструкция по загрузке ПО Modbus Slave](https://docs.google.com/document/d/10ZdR-4Tkc4ypZSAi4keqRzWTaVLvzNlI259pMCO3td8/edit?usp=sharing)
-- [Инструкция по загрузке ПО MasterOPC](https://docs.google.com/document/d/1lxB8FMddv2NI7G6CqvLWIRHDkf3gNQbYBcg824hRh1Y/edit?usp=sharing)
-- [Инструкция по загрузке ПО MastersSCADA 4D](https://docs.google.com/document/d/1Xj7_yWK_aZYy-l4acrME1y48uKVGcpeCP_gBhgOMJCo/edit?usp=sharingg)
+1. [MasterSCADA 4D](https://masterscada.ru/download4)
+1. [Проект MasterSCADA 4D](https://drive.google.com/drive/folders/1mpRXrxIKTLdCfWZxI85PLOQnNzhSY3cG?usp=sharing)
+1. [Инструкция по загрузке ПО MastersSCADA 4D](https://docs.google.com/document/d/1Xj7_yWK_aZYy-l4acrME1y48uKVGcpeCP_gBhgOMJCo/edit?usp=sharingg)
 
 ------
 
@@ -87,10 +74,10 @@
 
 1. В проекте MasterSCADA мнемосхемы для каждой станции хранения воды расположены в разных окнах.
 2. Настроены кнопки перемещения между окнами с мнемосхемами станций.
-3. В режиме исполнения отображается заполнение баков согласно изменению соответствующих входных аналоговых сигналов в эмуляторе ПЛК.
-4. В режиме исполнения отображается пуск работы насоса согласно изменению соответствующих входных дискретных сигналов в эмуляторе ПЛК.
-5. В режиме исполнения отображается состояние задвижек согласно изменению соответствующих входных дискретных сигналов в эмуляторе ПЛК.
-6. В режиме исполнения отображается состояние температуры насосов согласно изменению соответствующих входных аналоговых сигналов в эмуляторе ПЛК.
-7. На мнемосхемах расположены элементы управления пуском насосов и открывания/закрывания задвижек, все элементы управления связаны с соответствующими тегами дискретных выходных сигналов эмулятора ПЛК (элементы управления насосами и задвижками не меняют состояния насосов и задвижек, а только отправляют данные на выходные сигналы эмулятора ПЛК, состояния насосов и задвижек изменяются только согласно изменениям входных сигалов эмулятора ПЛК).
+3. В режиме исполнения отображается заполнение баков согласно изменению соответствующих входных аналоговых сигналов в OPC-сервере проекта MasterSCADA.
+4. В режиме исполнения отображается пуск работы насоса согласно изменению соответствующих входных дискретных сигналов в OPC-сервере проекта MasterSCADA.
+5.В режиме исполнения отображается состояние задвижек согласно изменению соответствующих входных дискретных сигналов в OPC-сервере проекта MasterSCADA.
+6. В режиме исполнения отображается состояние температуры насосов согласно изменению соответствующих входных аналоговых OPC -ервере проекта MasterSCADA.
+7. На мнемосхемах расположены элементы управления пуском насосов и открывания/закрывания задвижек, все элементы управления связаны с соответствующими тегами дискретных выходных сигналов OPC-сервера проекта MasterSCADA (элементы управления насосами и задвижками не меняют состояния насосов и задвижек, а только отправляют данные на выходные сигналы OPC-сервера проекта MasterSCADA, состояния насосов и задвижек изменяются только согласно изменениям входных сигналов OPC сервера проекта MasterSCADA).
 
 Работа направляется на доработку, если задание выполнено частично или не выполнено, в логике выполнения задания есть противоречия, существенные недостатки, нарушена методология.
