@@ -27,9 +27,10 @@ Simatic WinCC (Windows Control Center) является системой HMI, т
 
 ### Инструменты/ дополнительные материалы, которые пригодятся для выполнения задания
 
-1. [Дополнительный материал «Расширения для WinCC flexible»](https://docs.google.com/presentation/d/1jASMVZiJzqaPBIqHOdrxyQWNotueaSNLHkZcl3ZK5D4/edit?usp=sharing)
-2. [WinCC](https://support.industry.siemens.com/cs/document/67797298/simatic-wincc-v12-trial-download?dti=0&lc=en-WW)
-3. [Инструкция по регистрации для WinCC](https://docs.google.com/document/d/1T1w7rYufd_u8RXzDMTJZgvqz1lyzFY3CxFOv_gRW9ZI/edit?usp=sharing)
+1. [WinCC](https://support.industry.siemens.com/cs/document/67797298/simatic-wincc-v12-trial-download?dti=0&lc=en-WW)
+2. [Инструкция по регистрации для WinCC](https://docs.google.com/document/d/1T1w7rYufd_u8RXzDMTJZgvqz1lyzFY3CxFOv_gRW9ZI/edit?usp=sharing)
+
+Так же убедитесь, что у Вас есть доступ к записи лекции WinCC
 
 ### Задание 1 (Окна Simatic)
 
@@ -37,8 +38,9 @@ Simatic WinCC (Windows Control Center) является системой HMI, т
 При создании проекта WinCC разработчик выбрал дерево окон, как на картинке «Page_1»
 В процессе настройки окон ему потребовалось сделать перестройку дерева окон. Пример необходимой перестройки виден на картинке «Page_2»
 Опишите, как внутри проекта WinCC разработчик может изменить последовательность окон, не создавая проект заново
-![image](https://user-images.githubusercontent.com/99606697/162718289-8d60f496-7093-4971-a765-9aac6336e3e1.png)
-![image](https://user-images.githubusercontent.com/99606697/162718347-f550da01-e6c5-4c87-b037-01b2e70738be.png)
+
+![image](https://user-images.githubusercontent.com/99606697/162718289-8d60f496-7093-4971-a765-9aac6336e3e1.png) ![image](https://user-images.githubusercontent.com/99606697/162718347-f550da01-e6c5-4c87-b037-01b2e70738be.png)
+
 
 Приведите ответ в письменной форме. Скрины приветствуются.
 ------
