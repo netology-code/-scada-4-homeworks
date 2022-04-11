@@ -6,8 +6,8 @@ Simatic WinCC (Windows Control Center) является системой HMI, т
 
 В результате выполнения этого задания вы сможете:
 
-1. Определять характеристики панелей Simatic.
-2. Работать с расширениями для WinCC flexible.
+1. Работать с окнами WinCC flexible.
+2. Находить причины неисправностей при загрузке проекта WinCC.
 3. Реализовывать способы интеграции проекта WinCC в Step7.
 4. Создать проект WinCC.
 
@@ -27,24 +27,29 @@ Simatic WinCC (Windows Control Center) является системой HMI, т
 
 ### Инструменты/ дополнительные материалы, которые пригодятся для выполнения задания
 
-1. [Дополнительный материал «Подробнее о Simatic панелях»](https://docs.google.com/presentation/d/1_82JoKAFR7mb07eYZWJIldYWWkUP0H9FBENx7d3UoJ4/edit?usp=sharing)
-2. [Дополнительный материал «Расширения для WinCC flexible»](https://docs.google.com/presentation/d/1jASMVZiJzqaPBIqHOdrxyQWNotueaSNLHkZcl3ZK5D4/edit?usp=sharing)
-3. [WinCC](https://support.industry.siemens.com/cs/document/67797298/simatic-wincc-v12-trial-download?dti=0&lc=en-WW)
-4. [Инструкция по регистрации для WinCC](https://docs.google.com/document/d/1T1w7rYufd_u8RXzDMTJZgvqz1lyzFY3CxFOv_gRW9ZI/edit?usp=sharing)
+1. [Дополнительный материал «Расширения для WinCC flexible»](https://docs.google.com/presentation/d/1jASMVZiJzqaPBIqHOdrxyQWNotueaSNLHkZcl3ZK5D4/edit?usp=sharing)
+2. [WinCC](https://support.industry.siemens.com/cs/document/67797298/simatic-wincc-v12-trial-download?dti=0&lc=en-WW)
+3. [Инструкция по регистрации для WinCC](https://docs.google.com/document/d/1T1w7rYufd_u8RXzDMTJZgvqz1lyzFY3CxFOv_gRW9ZI/edit?usp=sharing)
 
-### Задание 1 (панели Simatic)
+### Задание 1 (Окна Simatic)
 
-1.  Перечислите, какие из панелей Simatic имеют доступ во внешнюю сеть (глобальный или локальный Интернет).
-2.	Перечислите, какие из панелей Simatic имеют встроенный контроллер.
+1.  На основе знаний, полученных из лекций, решите задачу:
+При создании проекта WinCC разработчик выбрал дерево окон, как на картинке «Page_1»
+В процессе настройки окон ему потребовалось сделать перестройку дерева окон. Пример необходимой перестройки виден на картинке «Page_2»
+Опишите, как внутри проекта WinCC разработчик может изменить последовательность окон, не создавая проект заново
+![image](https://user-images.githubusercontent.com/99606697/162718289-8d60f496-7093-4971-a765-9aac6336e3e1.png)
+![image](https://user-images.githubusercontent.com/99606697/162718347-f550da01-e6c5-4c87-b037-01b2e70738be.png)
 
-Приведите ответ в письменной форме.
+Приведите ответ в письменной форме. Скрины приветствуются.
 ------
 
-### Задание 2 (расширения для WinCC flexible).
+### Задание 2 (Поиск ошибки при загрузке проекта в режиме Runtime)
 
-Какое из расширений позволяет вернуться к предыдущей версии проекта (функция отката).
+При попытке открыть проект в режиме  «start runtime system», разработчик видит ошибку «Параметры системной функции для «SetBit» потеряны или неправильного типа»
+Объясните, в чем кроется проблема, и как ее исправить
+![image](https://user-images.githubusercontent.com/99606697/162719589-35bc0e4b-eb44-4a24-94cf-3967168492fe.png)
 
-Приведите ответ в письменной форме.
+Приведите ответ в письменной форме. Скрины приветствуются.
 
 ------
 
