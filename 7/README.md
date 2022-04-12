@@ -34,6 +34,8 @@ AVEVA Wonderware является одним из лидеров по разра
 
 Технические задания, в которых прописаны требования к проекту и процесс его создания находятся по [этой ссылке](https://docs.google.com/document/d/1v9VjOStreTUgDQxmjeN2uxN4HT-H_3lLLuYsg1mD7oI/edit?usp=sharing).
 
+Пример проекта, рассмотренного на занятии, вы можете найти [здесь](https://drive.google.com/drive/folders/1AVXO2nqOtyFJj3crFaGUfS8_MzHtLmJZ?usp=sharing).
+
 Результатом выполнения данного задания будет проект, разработанный в программной среде AVEVA Edge в соответствии с выбранным техническим заданием.
 
 ### Правила приёма работы
